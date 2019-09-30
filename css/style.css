@@ -1,0 +1,113 @@
+.title {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+body {
+    text-align: center;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+}
+
+#wrap{
+    width: 100%;
+    height:100%;
+    margin: 0 auto;
+    background-color:#aaa;
+
+    position:relative;
+}
+
+#wrap #nav{
+    background-color:skyblue;
+    width: 20%;
+    height:100%;
+    float:left;
+}
+
+#wrap #nav .header{
+    background-color:#F8F8F8;
+    margin:0;
+	width:100%;
+    height:40%;
+}
+
+#wrap #nav .header .Logo{
+    width:32px; 
+    height:32px;
+
+    margin-top:40px;
+ 
+}
+
+.tit{
+    font-size:30px; 
+    font-style:40px; 
+    font-family: 'Nanum Pen Script'; 
+    text-align:center; 
+    padding:5px; 
+    letter-spacing:2px;
+    color:black;
+}
+
+.bottom{
+    font-size:10px;
+}
+
+.header .img img{
+    margin-top:40px;
+
+    width:120px;
+    height:35px;
+}
+
+.header ul li .sns img{
+    width:25px;
+    height:25px;
+
+    margin-top:25px;
+    float:left;
+}
+
+.facebook img{
+    margin-left:130px;
+    margin-right:20px;
+}
+
+.twitter img{
+    margin-right:20px;
+}
+
+.instagram img{
+    margin-right:20px;
+}
+
+#wrap #nav .menu{
+    margin:0;
+    background-color:#FFFFFF;
+    height:60%;
+}
+
+#wrap #section{
+    background-color:yellow;
+    float:left;
+    height:100%;
+    width:80%;
+
+    position:relative;
+}
+
+#wrap #section #footer{
+    background-color:gray;
+
+    height: 10%;
+    width:100%;
+
+    position:absolute;
+    bottom:0;
+
+    clear: both;
+}
+
