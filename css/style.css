@@ -1,113 +1,35 @@
-.title {
-	font-weight: bold;
-	font-size: 30px;
-}
+/* 전체적인 스타일이 필요할 때 사용 */
+body { text-align: center; color: #FFF; width: 100%; height: 100%; }
+
+/* 맨 위 공간 뭐가 들어가야할지는 모르겠음 (현 위 회색) */
+#wrap{ width: 100%; height:100%; margin: 0 auto; background-color:#aaa; position:relative; }
+
+/* 메뉴 바 관련 공간 (현 왼쪽에 붙어있는 거) - 위 로그인 전 공간(?) */
+#wrap #nav{ width: 20%;height:100%; float:left; }
+#wrap #nav .header{  margin:0; width:100%; height:40%; border:1px solid #434343; background-color:#F8F8F8; }
+#wrap #nav .header .Logo{ width:32px; height:32px; margin-top:35px }
+#wrap #nav .menu{ margin:0; background-color:#FFFFFF; height:60%; }
+.tit{ font-size:30px; font-style:40px; font-family: 'Nanum Pen Script'; text-align:center; padding:5px; letter-spacing:2px; color:black; }
+.bottom{ font-size:10px; }
+.header .img img{ margin-top:20px; margin-bottom:30px; width:120px; height:35px; }
+.header ul li .sns img{ width:25px; height:25px; margin-top:25px; float:left; }
+.facebook img{ margin-left:130px; margin-right:20px; }
+.twitter img{ margin-right:20px; }
+.instagram img{ margin-right:20px;}
+
+/* 메뉴 바 관련 공간 (현 왼쪽에 붙어있는 거) - 아래 메뉴 나오는 공간 */
+.menu .lost { font-family: 'Nanum Pen Script'; font-size: 14pt; color : #9B9B9B; }
+.menu ul { font-family: 'Nanum Pen Script'; font-size: 13pt; }
+.menu ul li { margin-bottom:30px; }
+.menu ul li:nth-child(-n+1){ margin-top:50px;}
+.menu ul li:nth-child(n+5) { margin-bottom:80px; }
+.menu ul li:hover { color:#5377B6; font-weight: 1000; }
+
+/* 내용이 들어갈 공간 오른쪽 가장 큰 공간 (현 노랑색) */
+#wrap #section{ background: #c4c4c4; float:left; height:1000px; width:80%; position:relative; }
+
+/* 개발자 소개란과 간단한 메뉴들이 둘어갈 공간 (현 아래 회색) */
+#wrap #section #footer{ background-color:gray; height: 10%; width:100%; position:absolute; bottom:0; clear: both; }
 
 
-body {
-    text-align: center;
-    color: #FFF;
-    width: 100%;
-    height: 100%;
-}
-
-#wrap{
-    width: 100%;
-    height:100%;
-    margin: 0 auto;
-    background-color:#aaa;
-
-    position:relative;
-}
-
-#wrap #nav{
-    background-color:skyblue;
-    width: 20%;
-    height:100%;
-    float:left;
-}
-
-#wrap #nav .header{
-    background-color:#F8F8F8;
-    margin:0;
-	width:100%;
-    height:40%;
-}
-
-#wrap #nav .header .Logo{
-    width:32px; 
-    height:32px;
-
-    margin-top:40px;
- 
-}
-
-.tit{
-    font-size:30px; 
-    font-style:40px; 
-    font-family: 'Nanum Pen Script'; 
-    text-align:center; 
-    padding:5px; 
-    letter-spacing:2px;
-    color:black;
-}
-
-.bottom{
-    font-size:10px;
-}
-
-.header .img img{
-    margin-top:40px;
-
-    width:120px;
-    height:35px;
-}
-
-.header ul li .sns img{
-    width:25px;
-    height:25px;
-
-    margin-top:25px;
-    float:left;
-}
-
-.facebook img{
-    margin-left:130px;
-    margin-right:20px;
-}
-
-.twitter img{
-    margin-right:20px;
-}
-
-.instagram img{
-    margin-right:20px;
-}
-
-#wrap #nav .menu{
-    margin:0;
-    background-color:#FFFFFF;
-    height:60%;
-}
-
-#wrap #section{
-    background-color:yellow;
-    float:left;
-    height:100%;
-    width:80%;
-
-    position:relative;
-}
-
-#wrap #section #footer{
-    background-color:gray;
-
-    height: 10%;
-    width:100%;
-
-    position:absolute;
-    bottom:0;
-
-    clear: both;
-}
 
