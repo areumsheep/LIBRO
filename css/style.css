@@ -11,8 +11,9 @@ body { text-align: center; color: #FFF; width: 100%; height: 100%; }
 #wrap #nav .menu{ margin:0; background-color:#FFFFFF; height:60%; }
 .tit{ font-size:30px; font-style:40px; font-family: 'Nanum Pen Script'; text-align:center; padding:5px; letter-spacing:2px; color:black; }
 .bottom{ font-size:10px; }
+#wrap #nav .header p{font-family: "Nanum Gothic", sans-serif; font-size:12px; padding-top:5px;}
 .header .img img{ margin-top:20px; margin-bottom:30px; width:120px; height:35px; }
-.header ul li .sns img{ width:25px; height:25px; margin-top:25px; float:left; }
+.header ul li .sns img{ width:25px; height:25px; margin-top:20px; float:left; }
 .facebook img{ margin-left:130px; margin-right:20px; }
 .twitter img{ margin-right:20px; }
 .instagram img{ margin-right:20px;}
@@ -30,15 +31,15 @@ body { text-align: center; color: #FFF; width: 100%; height: 100%; }
 
 /* section부분 맨 위 header */
 #wrap #section img{width:100%; height:55%; position:relative;}
-#wrap #section .text1 img {position:absolute; width:450px; height:350px; left:100px; top:50px;}
-#wrap #section .text2 img {position:absolute; width:500px; height:50px; left:140px; top:380px;}
+#wrap #section .text1 img {position:absolute; width:400px; height:350px; left:100px; top:70px;}
+#wrap #section .text2 img {position:absolute; width:500px; height:50px; left:140px; top:400px;}
 
 /* section부분 아래 본문 */
 /* 검색바 */
-#wrap #section p{ display:flex; text-align:center; width:425px; height:51px; position:absolute; left:1000px; font-size:25px; font-family:Cabin; font-style:normal; margin-top:50px; color: #929292;}
+#wrap #section input{ border:0; display:flex; text-align:left; width:425px; height:51px; position:absolute; left:1000px; font-size:25px; font-family:Cabin; font-style:normal; margin-top:50px; color: #929292;}
 #wrap #section .search img{width:50px; height:50px; position:absolute; right:100px; top:600px;}
 /* 오늘의 추천식당 */
-#wrap #section .restaurants{position: absolute; width:200px; height: 40px; left:80px; top: 600px; font-family:Cabin; font-style:normal; font-weight:normal; font-size:20px; line-height:25px; align-items:center; text-align:center; color: #000000;}
+#wrap #section .restaurants{position: absolute; width:200px; height: 40px; left:80px; top:700px; font-family:Cabin; font-style:normal; font-weight:normal; font-size:25px; line-height:25px; align-items:center; text-align:center; color: #000000;}
 
 /* 개발자 소개란과 간단한 메뉴들이 둘어갈 공간 (현 아래 회색) */
 #wrap #section #footer{ background-color:gray; height: 2%; width:100%; position:absolute; bottom:0; clear: both; }
