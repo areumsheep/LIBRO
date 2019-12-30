@@ -14,3 +14,4 @@
 |                      | Web | Design | Server |
 |:--------------------:|:----:|:-------:|:--------:|
 | Development People | 양아름, 이예슬 | 윤묘하 | 양아름, 이예슬 |
+| Development Languange | HTML, CSS, JS | . | 추가예정 |
