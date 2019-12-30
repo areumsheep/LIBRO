@@ -16,3 +16,7 @@
 | Development People | 양아름, 이예슬 | 윤묘하 | 양아름, 이예슬 |
 | Development Languange | HTML, CSS, JS | . | . |
 | Development Tool | Visual Studio Code | PhotoShop, Figma | . |
+
+## To be added
+- api 연동
+- 첫화면 재구성
