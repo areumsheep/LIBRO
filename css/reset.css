@@ -5,9 +5,8 @@ input, fieldset,legend, p, select, table, th, tr, td,
 textarea, button, form{margin:0; padding:0;}
 
 /* 링크 초기화 */
-
 a{color:#222; text-decoration:none;}
-a:hover{color:#390;}
+a:hover{color:#5377B6;}
 
 /* 폰트초기화 */
 body, input, textarea, select, button, table{font-family: 'Nanum Gothic','돋움','맑은 고딕'; color:#222;font-size:13px;line-height:1.5;}
