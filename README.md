@@ -6,7 +6,7 @@
 > 검색, 후기, 음식 추천 기능을 포함한 맞춤 식당 프로젝트
 
 ## 체험해보기
-[https://areum1.github.io/LIBRO/](https://areum1.github.io/LIBRO/)
+[https://areumsheep.github.io/LIBRO/](https://areum1.github.io/LIBRO/)
 > 첫화면은 크롬기준 화면 80%로 맞춰야 예쁘게 나옵니다
 
 ### 아이디어의 시작
